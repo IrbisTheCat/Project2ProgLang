@@ -1,0 +1,5 @@
+#lang racket
+(define first (lambda (x) (car x)))
+(define second (lambda (x) (cadr x)))
+(define rest (lambda (x) (cdr x)))
+
